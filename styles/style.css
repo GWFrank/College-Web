@@ -1,0 +1,11 @@
+@import "common.css";
+
+:root{/*存放變數*/
+    --my-sans: "Microsoft Jhenghei", sans-serif;
+    --my-serif: 'Noto Serif TC', serif;
+    --my-width: auto;
+    --my-blue: #19385f;
+    --my-deep-blue: #0F2540;
+    --my-light-blue: #bdd7f7;
+    --common-weight: 500;
+}

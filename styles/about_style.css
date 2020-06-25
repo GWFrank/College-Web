@@ -1,0 +1,16 @@
+/* main >article{
+    width: 800px;
+    font-size: 16px;
+} */
+
+
+.article_title{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--my-serif);
+    padding: 5px;
+}
+
+.content{
+    padding: 5px
+}

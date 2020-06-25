@@ -1,0 +1,66 @@
+body{
+    min-height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Microsoft Jhenghei", sans-serif;
+}
+
+header{
+    flex: none;
+    padding: 8px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav{
+    flex: none;
+    display: flex;
+    background-color: #0F2540;
+    justify-content: center;
+    align-items: center;
+}
+
+nav div{
+    flex: none;
+    width: 10%;
+    padding: 5px;
+    background-color: #0F2540;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav div a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    
+} 
+
+main{
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    padding: 15px;
+    background-color: #DDDDDD;
+}
+
+article{
+    flex: none;
+    width: 800px;
+    padding: 10px;
+    background-color: white;
+
+}
+
+footer{
+    flex: none;
+    padding: 5px;
+    padding-left: 5%;
+    background-color: #0F2540;
+    font-size: 16px;
+    color: white;
+}
