@@ -57,9 +57,10 @@ main{
     flex: none;
     display: flex;
     flex-direction: column;
-    justify-content: top;
+    justify-content: center;
     align-items: center;
     padding: 15px;
+    min-height: 70vh;
     background-color: #999999;
 }
 main >*{
