@@ -3,7 +3,7 @@ html to js http://www.andrewdavidson.com/convert-html-to-javascript/
 head.js
         <meta charset="utf-8"/>
         <title>臺大僧指南</title>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+        <link href="<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;600&display=swap" rel="stylesheet">" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="styles/style.css">
 
 header.js

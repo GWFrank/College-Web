@@ -1,7 +1,7 @@
 @import "common.css";
 
 :root{/*存放變數*/
-    --my-sans: "Microsoft Jhenghei", sans-serif;
+    --my-sans: "Arial","Microsoft Jhenghei", sans-serif;
     --my-serif: 'Noto Serif TC', serif;
     --my-width: auto;
     --my-blue: #19385f;
@@ -10,5 +10,5 @@
     --my-green: #3d6359;
     --my-deep-green: #26453D;
     --common-weight: 500;
-
+    --anima-time: .25s;
 }

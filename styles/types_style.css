@@ -21,9 +21,14 @@
     width: 300px;
     margin: 10px 20px;
     padding: 7.5px;
-    border: 2px var(--my-blue) solid;
+    border: 2px var(--my-deep-blue) solid;
     border-radius: 5px;
     background-color: #EEEEF1;
+    transition: all var(--anima-time);
+}
+.class:hover{
+    background-color: var(--my-deep-blue);
+    transition: all var(--anima-time);
 }
 
 .class_title{
@@ -38,22 +43,38 @@
 #others{
     width: 500px;
 }
+.class:hover >*{
+    color: #EEEEF1;
+    transition: all var(--anima-time);
+}
+.class >*{
+    transition: all var(--anima-time);
+}
+
+
 
 .site_container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: stretch;
 }
 .site{
-    flex-grow: 1;
+    flex-grow: 0;
     flex-shrink: 0;
     width: 200px;
     margin: 10px 20px;
     padding: 7.5px;
-    border: 2px var(--my-green) solid;
+    border: 2px var(--my-deep-green) solid;
     border-radius: 5px;
     background-color: #EEF1F1;
+    transition: all var(--anima-time);
+    text-decoration: none;
+    color: black;
+}
+.site:hover{
+    background-color: var(--my-deep-green);
+    transition: all var(--anima-time);
 }
 
 .site_name{
@@ -65,6 +86,11 @@
 .site_intro{
     padding: 5px 0;
 }
-#others{
-    width: 500px;
+.site:hover >*{
+    color: #EEF1F1;
+    transition: all var(--anima-time);
 }
+.site >*{
+    transition: all var(--anima-time);
+}
+

@@ -34,11 +34,13 @@
     font-weight: var(--common-weight);
     cursor: pointer;
     outline: none;
+    transition: all var(--anima-time);
 }
 .home_secs >* >button:hover{
     border-radius: 0px;
     background-color: white;
     color: #CB1B45;
+    transition: all var(--anima-time);
 }
 /* .home_secs >* >button:active{
     border: 2px  #CB1B45 solid;
