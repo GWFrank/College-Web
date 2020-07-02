@@ -10,37 +10,30 @@ body{
 }
 
 
-header{
-    flex: none;
-    padding: 8px;
-    width: calc(var(--my-width) - 2*8px);
-    text-align: center;
-}
-header >a{
-    font-size: 40px;
-    font-family: var(--my-serif);
-    font-weight: 600;
-    color: black;
-    text-decoration: none;
-}
 
 nav{
     flex: none;
     display: flex;
     background-color: var(--my-blue);
-    justify-content: center;
-    align-items: strech;
+    justify-content: flex-start;
+    align-items: stretch;
     width: var(--my-width);
+    padding: 0;
+    height: 80px;
 }
 nav >div{
+    display: flex;
+    align-items: center;
     flex: none;
-    width: 10%;
+    width: 120px;
     min-width: 105px;
     padding: 10px;
+    margin: 0;
     background-color: var(--my-blue);
     text-align: center;
 }
 nav >div >a{
+    width: 100%;
     text-align: center;
     text-decoration: none;
     color: white;
@@ -52,6 +45,22 @@ nav >div:hover{
     background-color: var(--my-deep-blue);
 }
 
+nav >header{
+    display: flex;
+    align-items: center;
+    flex: none;
+    padding: 10px 50px;
+    width: 200px;
+    text-align: center;
+}
+nav >header >a{
+    font-size: 28px;
+    font-family: var(--my-serif);
+    font-weight: 600;
+    color: white;
+    width: 100%;
+    text-decoration: none;
+}
 
 main{
     flex: none;
@@ -60,8 +69,9 @@ main{
     justify-content: center;
     align-items: center;
     padding: 15px;
-    /* min-height: 80vh; */
-    background-color: #999999;
+    /* height: calc(100vh - 140px);
+    overflow: auto; */
+    background-color: #BBBBBB;
 }
 main >*{
     flex: none;
@@ -84,4 +94,5 @@ footer{
     font-size: 16px;
     color: white;
     text-align: center;
+    height: 50px;
 }

@@ -11,6 +11,7 @@ header.js
 
 nav.js
         <nav>
+            <header><a href="index.html">臺大僧指南</a></header>
             <div><a href="about.html">關於本站</a></div>
             <div><a href="types.html">要修哪些課</a></div>
             <div><a href="ap.html">怎麼少修課</a></div>

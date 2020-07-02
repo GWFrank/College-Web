@@ -1,5 +1,6 @@
 document.write( '<!-- 上方選單 -->\n' );
 document.write( '        <nav>\n' );
+document.write( '            <header><a href=\"index.html\">臺大僧指南</a></header>\n')
 document.write( '            <div><a href=\"about.html\">關於本站</a></div>\n' );
 document.write( '            <div><a href=\"types.html\">要修哪些課</a></div>\n' );
 document.write( '            <div><a href=\"ap.html\">怎麼少修課</a></div>\n' );
