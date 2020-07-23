@@ -3,14 +3,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: var(--my-width);
+    /* width: var(--my-width); */
+    width: 100%;
 }
 .home_secs >*{
     padding: 14vh;
     padding-left: 0;
     padding-right: 0;
     width: 100%;
-    min-width: 600px;
+    /* min-width: 600px; */
     text-align: center;
     font-size: 30px;
     font-weight: var(--common-weight);

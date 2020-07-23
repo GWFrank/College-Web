@@ -1,6 +1,7 @@
 body{
     min-height: 100vh;
-    width: auto;
+    /* width: var(--my-width); */
+    min-width: 1000px;
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -25,8 +26,8 @@ nav >div{
     display: flex;
     align-items: center;
     flex: none;
-    width: 120px;
-    min-width: 105px;
+    /* width: 120px; */
+    /* min-width: 105px; */
     padding: 10px;
     margin: 0;
     background-color: var(--my-blue);
